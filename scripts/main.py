@@ -1,13 +1,11 @@
 # %% Import packages
-import os
 
 # %% Import paths
-from config import INPUT_PATH
+from config import *
 
 # %% Import useful functions
-
-
-# %% Main
-os.listdir(INPUT_PATH)
+from utils.import_data import *
 
 # %% Core
+df = import_movies_list(INPUT_PATH)
+clean_movies_list(df)
