@@ -1,4 +1,8 @@
 # %% Import packages
+# import requests
+# from unidecode import unidecode
+# import pandas as pd
+import os
 
 # %% Import paths
 from config import *
@@ -7,5 +11,5 @@ from config import *
 from utils.import_data import *
 
 # %% Core
-df = import_movies_list(INPUT_PATH)
-clean_movies_list(df)
+df = get_movies_list(INPUT_PATH)
+df.to_excel(os.path.join(INTERMEDIATE_PATH, "liste_films_bruts.xlsx"), index=False)
