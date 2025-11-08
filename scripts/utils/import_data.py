@@ -20,3 +20,9 @@ def clean_movies_list(df):
     df["year"] = df["year"].str.replace(r")", "")
     df.drop(columns="gross_name", inplace=True)
     return df
+
+
+def get_movies_list(path):
+    df_movies = import_movies_list(path)
+    df_movies_clean = clean_movies_list(df_movies)
+    return df_movies_clean
