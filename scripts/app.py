@@ -461,6 +461,76 @@ st.markdown(
             width: 100% !important;
         }
     }
+    
+    /* ----------------------------------------------
+    Mobile paysage : 5 films par ligne
+    ---------------------------------------------- */
+
+    @media (max-width: 1000px) and (orientation: landscape) {
+
+        /* Titre de la page */
+        h1 {
+            font-size: 30px !important;
+            line-height: 1.1 !important;
+        }
+
+
+        /* Conserve les 5 colonnes */
+        div[data-testid="stHorizontalBlock"] {
+            flex-wrap: nowrap !important;
+            gap: 8px !important;
+        }
+
+        div[data-testid="stColumn"] {
+            min-width: 0 !important;
+            width: 20% !important;
+            flex: 1 1 20% !important;
+        }
+
+
+        /* Titre des films */
+        div[data-testid="stColumn"] h3 {
+            font-size: 13px !important;
+            line-height: 1.15 !important;
+        }
+
+
+        /* Titre original */
+        .original-title {
+            font-size: 10px !important;
+            line-height: 1.1 !important;
+            margin-top: 2px !important;
+            margin-bottom: 5px !important;
+        }
+
+
+        /* Année, note, durée */
+        div[data-testid="stColumn"] p {
+            font-size: 10px !important;
+            line-height: 1.1 !important;
+        }
+
+
+        /* Bouton Voir les détails */
+        div[data-testid="stExpander"] summary {
+            font-size: 10px !important;
+            padding: 5px !important;
+        }
+
+
+        /* Contenu de l'expander */
+        div[data-testid="stExpander"]
+        div[data-testid="stMarkdownContainer"] {
+            font-size: 10px !important;
+            line-height: 1.25 !important;
+        }
+
+
+        div[data-testid="stExpander"]
+        div[data-testid="stMarkdownContainer"] h4 {
+            font-size: 12px !important;
+        }
+}
 
     </style>
     """,
