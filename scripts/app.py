@@ -331,6 +331,15 @@ st.markdown(
         font-size: 18px !important;
         margin-bottom: 0 !important;
     }
+    
+    /* Version ordinateur */
+    .original-title {
+        font-size: 15px;
+        color: #B0B0B0;
+        font-style: italic;
+        margin-top: -12px;
+        margin-bottom: 8px;
+    }
 
     /* Affiche absente */
     .poster-manquant {
@@ -351,6 +360,11 @@ st.markdown(
     ---------------------------------------------- */
 
     @media (max-width: 768px) {
+        
+            h1 {
+                font-size: 26px !important;
+                line-height: 1.1 !important;
+            }
 
         div[data-testid="stHorizontalBlock"] {
             flex-wrap: nowrap !important;
@@ -366,6 +380,13 @@ st.markdown(
         div[data-testid="stColumn"] h3 {
             font-size: 10px !important;
             line-height: 1.1 !important;
+        }
+        
+        .original-title {
+        font-size: 8px !important;
+        line-height: 1.1 !important;
+        margin-top: 2px !important;
+        margin-bottom: 4px !important;
         }
 
         div[data-testid="stColumn"] p {
@@ -432,13 +453,7 @@ else:
                 if pd.notna(titre_original) and titre_original != film["title"]:
                     st.markdown(
                         f"""
-                        <div style="
-                            font-size: 15px;
-                            color: #B0B0B0;
-                            font-style: italic;
-                            margin-top: -12px;
-                            margin-bottom: 8px;
-                        ">
+                        <div class="original-title">
                             {titre_original}
                         </div>
                         """,
@@ -456,7 +471,7 @@ else:
                 st.write(afficher_liste(film["genres"]))
 
                 # Bouton permettant d'ouvrir la fiche
-                with st.expander("Voir les détails"):
+                with st.expander("Détails"):
 
                     st.markdown(f"**Mon titre :** " f"{film['my_title']}")
 

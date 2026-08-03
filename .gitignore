@@ -1,1 +1,5 @@
 .env
+__pycache__/
+*.pyc
+liste_films_avec_infos_tmdb.xlsx
+liste_films_bruts.xlsx
