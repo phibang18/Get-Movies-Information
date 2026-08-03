@@ -40,7 +40,7 @@ def charger_films(chemin_json):
 
 
 # Chemin vers ton fichier JSON
-df = charger_films("../data/site/data.json")
+df = charger_films("data/site/data.json")
 
 
 # --------------------------------------------------
@@ -335,7 +335,7 @@ else:
                 chemin_affiche = film.get("poster", None)
 
                 if chemin_affiche and Path(chemin_affiche).exists():
-
+                    chemin_affiche = str.replace(chemin_affiche, "../", "")
                     st.image(chemin_affiche, use_container_width=True)
 
                 else:
