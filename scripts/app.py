@@ -398,6 +398,68 @@ st.markdown(
             font-size: 8px !important;
             padding: 2px !important;
         }
+        
+        /* --------------------------------------------------
+        Bouton "Voir les détails"
+        -------------------------------------------------- */
+
+        /* Bouton de l'expander */
+        div[data-testid="stExpander"] summary {
+            font-size: 8px !important;
+            line-height: 1.1 !important;
+            padding: 4px 2px !important;
+        }
+
+        /* Texte du bouton */
+        div[data-testid="stExpander"] summary p {
+            font-size: 8px !important;
+        }
+
+        /* Icône/flèche de l'expander */
+        div[data-testid="stExpander"] summary svg {
+            width: 9px !important;
+            height: 9px !important;
+        }
+
+
+        /* --------------------------------------------------
+        Contenu de la fiche détaillée
+        -------------------------------------------------- */
+
+        /* Texte général dans l'expander */
+        div[data-testid="stExpander"] div[data-testid="stMarkdownContainer"] {
+            font-size: 8px !important;
+            line-height: 1.25 !important;
+        }
+
+        /* Paragraphes : réalisateur, année, etc. */
+        div[data-testid="stExpander"]
+        div[data-testid="stMarkdownContainer"] p {
+            font-size: 8px !important;
+            line-height: 1.25 !important;
+        }
+
+        /* Titres Distribution, Synopsis et Mots-clés */
+        div[data-testid="stExpander"]
+        div[data-testid="stMarkdownContainer"] h4 {
+            font-size: 10px !important;
+            line-height: 1.15 !important;
+            margin-top: 8px !important;
+            margin-bottom: 3px !important;
+        }
+
+        /* Texte du synopsis */
+        div[data-testid="stExpander"]
+        div[data-testid="stMarkdownContainer"] p {
+            overflow-wrap: anywhere;
+            word-break: break-word;
+        }
+
+        /* Évite que le contenu dépasse de la colonne */
+        div[data-testid="stExpander"] {
+            min-width: 0 !important;
+            width: 100% !important;
+        }
     }
 
     </style>
