@@ -13,7 +13,7 @@ OUTPUT_DIR = Path("../data/site/")
 OUTPUT_JSON = OUTPUT_DIR / "data.json"
 
 # Dossier contenant les affiches
-POSTER_FOLDER = "../data/affiches"
+POSTER_FOLDER = "data/affiches"
 
 
 ##############################################################################
