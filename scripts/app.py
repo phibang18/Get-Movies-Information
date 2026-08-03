@@ -312,6 +312,79 @@ elif tri_selectionne == "Note (moins bonne)":
 # Affichage des films
 # --------------------------------------------------
 
+st.markdown(
+    """
+    <style>
+
+    /* Affiches */
+    img {
+        border-radius: 8px;
+        transition: transform 0.2s;
+    }
+
+    img:hover {
+        transform: scale(1.03);
+    }
+
+    /* Titre des films */
+    h3 {
+        font-size: 18px !important;
+        margin-bottom: 0 !important;
+    }
+
+    /* Affiche absente */
+    .poster-manquant {
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #292929;
+        border-radius: 8px;
+        color: #aaaaaa;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* ----------------------------------------------
+       Affichage mobile : 5 films par ligne
+    ---------------------------------------------- */
+
+    @media (max-width: 768px) {
+
+        div[data-testid="stHorizontalBlock"] {
+            flex-wrap: nowrap !important;
+            gap: 4px !important;
+        }
+
+        div[data-testid="stColumn"] {
+            min-width: 0 !important;
+            width: 20% !important;
+            flex: 1 1 20% !important;
+        }
+
+        div[data-testid="stColumn"] h3 {
+            font-size: 10px !important;
+            line-height: 1.1 !important;
+        }
+
+        div[data-testid="stColumn"] p {
+            font-size: 8px !important;
+            line-height: 1.1 !important;
+        }
+
+        div[data-testid="stColumn"] button {
+            font-size: 8px !important;
+            padding: 2px !important;
+        }
+    }
+
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+
 if df_filtre.empty:
 
     st.warning("Aucun film ne correspond aux critères.")
