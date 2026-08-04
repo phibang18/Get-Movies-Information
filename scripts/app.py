@@ -396,8 +396,8 @@ st.markdown(
 
         div[data-testid="stColumn"] {
             min-width: 0 !important;
-            width: 20% !important;
-            flex: 1 1 20% !important;
+            width: 25% !important;
+            flex: 1 1 25% !important;
         }
 
         div[data-testid="stColumn"] h3 {
