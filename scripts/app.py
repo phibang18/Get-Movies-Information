@@ -506,8 +506,8 @@ st.markdown(
 
         div[data-testid="stColumn"] {
             min-width: 0 !important;
-            width: 20% !important;
-            flex: 1 1 20% !important;
+            width: 25% !important;
+            flex: 1 1 25% !important;
         }
 
 
@@ -568,7 +568,7 @@ if df_filtre.empty:
 else:
 
     # Affichage de 5 affiches par ligne
-    nombre_colonnes = 5
+    nombre_colonnes = 4
 
     for debut in range(0, len(df_filtre), nombre_colonnes):
 
