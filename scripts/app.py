@@ -16,6 +16,28 @@ st.set_page_config(
 )
 
 
+components.html(
+    """
+    <script>
+        const viewport = window.parent.document.querySelector(
+            'meta[name="viewport"]'
+        );
+
+        if (viewport) {
+            viewport.setAttribute(
+                "content",
+                "width=device-width, "
+                + "initial-scale=1, "
+                + "maximum-scale=5, "
+                + "user-scalable=yes"
+            );
+        }
+    </script>
+    """,
+    height=0,
+)
+
+
 # --------------------------------------------------
 # Chargement des données
 # --------------------------------------------------
