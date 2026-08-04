@@ -246,7 +246,7 @@ if recherche:
         | masque_mon_titre
         | masque_autre_titre
         | masque_realisateur
-        | masque_synopsis
+        # | masque_synopsis
         | masque_distribution
     ]
 
