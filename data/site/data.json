@@ -976,6 +976,46 @@
     "poster": "data/affiches/592480.0.jpg"
   },
   {
+    "id": 1266791,
+    "my_title": "Alter Ego",
+    "other_title": "",
+    "title": "Alter ego",
+    "original_title": "Alter ego",
+    "director": "Nicolas Charlet ; Bruno Lavaine",
+    "year": 2026,
+    "release_date": "2026-03-04",
+    "runtime": "01:39",
+    "language": "FR",
+    "genres": [
+      "Comédie"
+    ],
+    "rating": 6.338,
+    "votes": 102,
+    "popularity": 4.8116,
+    "budget": null,
+    "revenue": null,
+    "country": "FR",
+    "cast": [
+      "Laurent Lafitte",
+      "Olga Kurylenko",
+      "Blanche Gardin",
+      "Monsieur Fraize",
+      "Zabou Breitman",
+      "Bertrand Goncalves",
+      "Giovanni Pucci",
+      "Léo Garcia",
+      "Olivier Brabant",
+      "Olivier Bayart",
+      "Emmanuel Plovier",
+      "Hervé Hague"
+    ],
+    "composer": "Nicolas Errèra",
+    "writer": "Bruno Lavaine ; Nicolas Charlet",
+    "overview": "Alex a un problème : son nouveau voisin est son sosie parfait. Avec des cheveux. Un double en mieux, qui va totalement bouleverser son existence.",
+    "keywords": [],
+    "poster": "data/affiches/1266791.0.jpg"
+  },
+  {
     "id": 279,
     "my_title": "Amadeus",
     "other_title": "",
@@ -7201,6 +7241,50 @@
       "audacious"
     ],
     "poster": "data/affiches/338766.0.jpg"
+  },
+  {
+    "id": 85872,
+    "my_title": "Comme un chef",
+    "other_title": "",
+    "title": "Comme un chef",
+    "original_title": "Comme un chef",
+    "director": "Daniel Cohen",
+    "year": 2012,
+    "release_date": "2012-03-07",
+    "runtime": "01:30",
+    "language": "FR",
+    "genres": [
+      "Comédie"
+    ],
+    "rating": 6.172,
+    "votes": 650,
+    "popularity": 4.2627,
+    "budget": null,
+    "revenue": 306724.0,
+    "country": "FR",
+    "cast": [
+      "Michaël Youn",
+      "Jean Reno",
+      "Raphaëlle Agogué",
+      "Julien Boisselier",
+      "Salomé Stévenin",
+      "Serge Larivière",
+      "Issa Doumbia",
+      "Bun-hay Mean",
+      "Pierre Vernier",
+      "Santiago Segura",
+      "Geneviève Casile",
+      "André Penvern"
+    ],
+    "composer": "Nicola Piovani",
+    "writer": "Daniel Cohen ; Olivier Dazat",
+    "overview": "Jacky Bonnot aime tellement cuisiner qu'il rêve depuis sa plus tendre enfance de devenir un grand chef. Même si sa compagne peut comprendre l'ambition culinaire de Jacky, il s'agit aussi de faire bouillir la marmite. Aussi accepte-t-il n'importe quel petit boulot. Et lorsqu'on lui propose enfin un poste dans une cuisine, il n'est pas question d'autre chose que de steaks et de saucisses. C'est alors que son chemin croise celui d'Alexandre Lagarde, un chef étoilé célèbre, mis en difficulté par le groupe financier propriétaire de ses enseignes. Si Lagarde devait perdre la moindre étoile, il serait congédié sur-le-champ. Or, le malheureux n'a plus d'idée…",
+    "keywords": [
+      "cooking",
+      "chef",
+      "french cuisine"
+    ],
+    "poster": "data/affiches/85872.0.jpg"
   },
   {
     "id": 641501,
@@ -13967,6 +14051,72 @@
       "excited"
     ],
     "poster": "data/affiches/33.0.jpg"
+  },
+  {
+    "id": 22947,
+    "my_title": "Up In The Air",
+    "other_title": "",
+    "title": "In the Air",
+    "original_title": "Up in the Air",
+    "director": "Jason Reitman",
+    "year": 2009,
+    "release_date": "2009-12-04",
+    "runtime": "01:49",
+    "language": "EN",
+    "genres": [
+      "Drame",
+      "Romance"
+    ],
+    "rating": 6.9,
+    "votes": 4139,
+    "popularity": 8.4384,
+    "budget": 25000000.0,
+    "revenue": 166842739.0,
+    "country": "US",
+    "cast": [
+      "George Clooney",
+      "Vera Farmiga",
+      "Anna Kendrick",
+      "Sam Elliott",
+      "Amy Morton",
+      "Jason Bateman",
+      "Melanie Lynskey",
+      "J.K. Simmons",
+      "Danny McBride",
+      "Zach Galifianakis",
+      "Tamala Jones",
+      "Adhir Kalyan"
+    ],
+    "composer": "Rolfe Kent",
+    "writer": "Jason Reitman ; Sheldon Turner",
+    "overview": "L'odyssée de Ryan Bingham, un spécialiste du licenciement à qui les entreprises font appel pour ne pas avoir à se salir les mains. Dans sa vie privée, celui-ci fuit tout engagement (mariage, propriété, famille) jusqu'à ce que sa rencontre avec deux femmes ne le ramène sur terre. Ryan Bingham est un collectionneur compulsif de miles aériens cumulés lors de ses incessants voyages d'affaire. Misanthrope, il adore cette vie faite d'aéroports, de chambres d'hôtel et de voitures de location. Lui dont les besoins tiennent à l'intérieur d'une seule valise est même à deux doigts d'atteindre un des objectifs de sa vie : les 10 millions de miles.",
+    "keywords": [
+      "suitcase",
+      "business",
+      "omaha",
+      "las vegas",
+      "on the road",
+      "fired from the job",
+      "downsizing",
+      "cross country",
+      "videoconferencing",
+      "employment termination",
+      "business trip",
+      "airport lounge",
+      "duringcreditsstinger",
+      "airline",
+      "motivational speaker",
+      "public speaking",
+      "laid off",
+      "mature romance",
+      "traveler",
+      "airport ending",
+      "travel packing",
+      "travel gift",
+      "air travel",
+      "frequent flyer"
+    ],
+    "poster": "data/affiches/22947.0.jpg"
   },
   {
     "id": 843,
@@ -21136,6 +21286,62 @@
     "poster": "data/affiches/989593.0.jpg"
   },
   {
+    "id": 1480382,
+    "my_title": "Sawt Hind Rajab",
+    "other_title": "La Voix de Hind Rajab",
+    "title": "La Voix de Hind Rajab",
+    "original_title": "صوت هند رجب",
+    "director": "Kaouther Ben Hania",
+    "year": 2025,
+    "release_date": "2025-09-10",
+    "runtime": "01:29",
+    "language": "AR",
+    "genres": [
+      "Drame",
+      "Histoire"
+    ],
+    "rating": 8.067,
+    "votes": 363,
+    "popularity": 7.1623,
+    "budget": null,
+    "revenue": 5058441.0,
+    "country": "TN",
+    "cast": [
+      "هند رامي إياد  رجب",
+      "Motaz Malhees",
+      "Saja Kilani",
+      "Amer Hlehel",
+      "Clara Khoury",
+      "Nesbat Serhan",
+      "Ramy Brahem"
+    ],
+    "composer": "Amine Bouhafa",
+    "writer": "Kaouther Ben Hania",
+    "overview": "29 janvier 2024. Les bénévoles du Croissant-Rouge reçoivent un appel d'urgence. Une fillette de six ans est piégée dans une voiture sous les tirs à Gaza et implore qu'on vienne la secourir. Tout en essayant de la garder en ligne, ils font tout leur possible pour lui envoyer une ambulance. Elle s'appelait Hind Rajab.",
+    "keywords": [
+      "palestinian-israeli conflict",
+      "palestine",
+      "war crimes",
+      "zionism",
+      "based on true story",
+      "child in peril",
+      "genocide",
+      "gaza strip",
+      "gaza",
+      "devastating",
+      "israeli war crimes",
+      "horrified",
+      "crimes against civilians",
+      "2020s",
+      "palestinian genocide",
+      "gaza massacres",
+      "colonial genocide",
+      "settler genocide",
+      "hind rajab"
+    ],
+    "poster": "data/affiches/1480382.0.jpg"
+  },
+  {
     "id": 61711,
     "my_title": "La Vérité",
     "other_title": "",
@@ -22087,6 +22293,54 @@
       "luxurious estates"
     ],
     "poster": "data/affiches/1084736.0.jpg"
+  },
+  {
+    "id": 25205,
+    "my_title": "Le Concert",
+    "other_title": "",
+    "title": "Le Concert",
+    "original_title": "Le Concert",
+    "director": "Radu Mihăileanu",
+    "year": 2009,
+    "release_date": "2009-11-04",
+    "runtime": "02:00",
+    "language": "FR",
+    "genres": [
+      "Drame",
+      "Comédie"
+    ],
+    "rating": 7.2,
+    "votes": 536,
+    "popularity": 3.501,
+    "budget": null,
+    "revenue": null,
+    "country": "FR",
+    "cast": [
+      "Алексей Гуськов",
+      "Mélanie Laurent",
+      "Дмитрий Назаров",
+      "François Berléand",
+      "Miou-Miou",
+      "Lionel Abelanski",
+      "Валерий Баринов",
+      "Sara Martins",
+      "Laurent Bateau",
+      "Vlad Ivanov",
+      "Анна Каменкова",
+      "Roger Dumas"
+    ],
+    "composer": "Armand Amar",
+    "writer": "Radu Mihăileanu ; Alain-Michel Blanc ; Matthew Robbins ; Héctor Cabello Reyes",
+    "overview": "A l'époque de Brejnev, Andrei Filipov était le plus grand chef d'orchestre d'Union soviétique et dirigeait le célèbre Orchestre du Bolchoï. Mais après avoir refusé de se séparer de ses musiciens juifs, dont son meilleur ami Sacha, il a été licencié en pleine gloire. Trente ans plus tard, il travaille toujours au Bolchoï mais... comme homme de ménage. Un soir, alors qu'Andrei est resté très tard pour astiquer le bureau du maître des lieux, il tombe sur un fax adressé au directeur : il s'agit d'une invitation du Théâtre du Châtelet conviant l'orchestre du Bolchoï à venir jouer à Paris... Soudain, Andrei a une idée de folie : pourquoi ne pas réunir ses anciens copains musiciens, qui vivent aujourd'hui de petits boulots, et les emmener à Paris, en les faisant passer pour le Bolchoï ? L'occasion tant attendue de prendre enfin leur revanche...",
+    "keywords": [
+      "concert",
+      "gypsy",
+      "orchestra",
+      "musical",
+      "based on true story",
+      "violin player"
+    ],
+    "poster": "data/affiches/25205.0.jpg"
   },
   {
     "id": 149871,
@@ -34462,6 +34716,43 @@
       "amused"
     ],
     "poster": "data/affiches/804251.0.jpg"
+  },
+  {
+    "id": 1626188,
+    "my_title": "Novak Djokovic The Wolf In Winter",
+    "other_title": "",
+    "title": "Novak Djoković : Le loup en hiver",
+    "original_title": "Novak Djokovic: The Wolf in Winter",
+    "director": "Jason Hehir",
+    "year": 2026,
+    "release_date": "2026-08-20",
+    "runtime": "01:32",
+    "language": "EN",
+    "genres": [
+      "Documentaire"
+    ],
+    "rating": 7.167,
+    "votes": 9,
+    "popularity": 5.9385,
+    "budget": null,
+    "revenue": null,
+    "country": "US",
+    "cast": [
+      "Новак Ђоковић",
+      "Andre Agassi",
+      "Pete Sampras",
+      "Rafael Nadal",
+      "Boris Becker",
+      "Mary Carillo"
+    ],
+    "composer": "",
+    "writer": "",
+    "overview": "Il a remporté tous les titres possibles en tennis, y compris une médaille d'or olympique. Alors pourquoi Novak Djokovic continue-t-il à jouer ? Le documentaire Le Loup en hiver suit le plus grand joueur de tennis de tous les temps lors de son retour à l'Open d'Australie en 2025, capturant son obsession, sa préparation et cette flamme qui ne s'éteint pas, alors qu'il n'a plus rien à prouver.",
+    "keywords": [
+      "sports",
+      "tennis"
+    ],
+    "poster": "data/affiches/1626188.0.jpg"
   },
   {
     "id": 823951,
